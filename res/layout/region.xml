@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" 
+    android:orientation="vertical">
+    <TextView  
+    android:id="@+id/text2"
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text="@string/text2" android:layout_weight="1"
+    android:textAppearance="?android:attr/textAppearanceLarge"/>
+    
+    <Button 
+    android:layout_width="match_parent" 
+    android:layout_height="wrap_content"
+    android:layout_weight="1"
+    android:id="@+id/North" 
+    android:text="@string/North"
+    android:drawableLeft="@drawable/region1"
+    android:textAppearance="?android:attr/textAppearanceLarge">
+    </Button>
+    
+    <Button 
+    android:layout_width="match_parent" 
+    android:layout_height="wrap_content"
+    android:layout_weight="1"
+    android:id="@+id/Middle" 
+    android:text="@string/Middle"
+    android:drawableLeft="@drawable/region1"
+    android:textAppearance="?android:attr/textAppearanceLarge"></Button>
+    
+    <Button 
+    android:layout_height="wrap_content" 
+    android:layout_width="match_parent"
+    android:id="@+id/South" 
+    android:text="@string/South" 
+    android:layout_weight="1"
+    android:drawableLeft="@drawable/region1"
+    android:textAppearance="?android:attr/textAppearanceLarge"></Button>
+    </LinearLayout>

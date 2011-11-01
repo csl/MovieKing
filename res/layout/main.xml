@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" 
+    android:orientation="vertical">
+    
+<TextView  android:id="@+id/text1"
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text="@string/text1" android:layout_weight="1"
+    android:textAppearance="?android:attr/textAppearanceLarge"/>
+<Button android:text="@string/movie" 
+android:id="@+id/movie" 
+android:layout_weight="1" 
+android:layout_height="wrap_content"
+android:layout_width="match_parent"
+android:drawableLeft="@drawable/movie1"
+android:textAppearance="?android:attr/textAppearanceLarge"></Button>
+<Button android:text="@string/card" 
+android:id="@+id/card" 
+android:layout_height="wrap_content"
+ android:layout_weight="1" 
+ android:layout_width="match_parent"
+ android:drawableLeft="@drawable/card1"
+ android:textAppearance="?android:attr/textAppearanceLarge"></Button>
+<Button android:text="@string/gps" 
+android:id="@+id/gps" 
+android:layout_height="wrap_content" 
+android:layout_weight="1" 
+android:layout_width="match_parent"
+android:drawableLeft="@drawable/gps1"
+android:textAppearance="?android:attr/textAppearanceLarge"></Button>
+</LinearLayout>

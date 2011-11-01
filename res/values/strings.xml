@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Movie King</string>
+    <string name="movie">電影院優惠查詢</string>
+    <string name="card">信用卡的電影優惠查詢</string>
+    <string name="gps">地圖GPS定位查詢</string>
+    <string name="text1">歡迎使用電影王查詢系統！</string>
+    <string name="text2">選擇查詢地區</string>  
+    
+    <string name="North">北部地區</string>  
+    <string name="Middle">中部地區</string>  
+      <string name="South">南部地區</string>
+      
+      <string name="NewTaipei">新北市</string>
+      <string name="Taipei">台北市</string>
+      <string name="Keelung">基隆市</string>
+       <string name="Taoyuan">桃園市</string>
+       <string name="Hsinchu">新竹市</string>
+       
+       <string name="Taipeimovie1">信義威秀影城</string>  
+       <string name="Taipeimovie2">微風國賓影城</string>
+       <string name="Taipeimovie3">西門國賓大戲院</string> 
+       <string name="Taipeimovie4">in89豪華數位影城</string> 
+       <string name="Taipeimovie5">樂聲戲院</string> 
+       <string name="Taipeimovie6">日新威秀影城</string> 
+       <string name="Taipeimovie7">絕色影城</string> 
+       <string name="Taipeimovie8">京站威秀影城</string> 
+       <string name="Taipeimovie9">今日秀泰影城</string> 
+       
+       
+       
+       
+</resources>

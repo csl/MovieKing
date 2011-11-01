@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" 
+    android:orientation="vertical">
+    <TextView  
+    android:id="@+id/text2"
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text="@string/text2" android:layout_weight="1"
+    android:textAppearance="?android:attr/textAppearanceLarge"/>
+    //新北市
+    <Button 
+    android:layout_width="match_parent" 
+    android:layout_height="wrap_content"
+    android:layout_weight="1"
+    android:id="@+id/NewTaipei" 
+    android:text="@string/NewTaipei"
+    android:drawableLeft="@drawable/region1"
+    android:textAppearance="?android:attr/textAppearanceLarge">
+    </Button>
+    
+    //台北市
+    <Button 
+    android:layout_width="match_parent" 
+    android:layout_height="wrap_content"
+    android:layout_weight="1"
+    android:id="@+id/Taipei" 
+    android:text="@string/Taipei"
+    android:drawableLeft="@drawable/region1"
+    android:textAppearance="?android:attr/textAppearanceLarge">
+    </Button>
+    
+    
+    //基隆市
+    <Button 
+    android:layout_width="match_parent" 
+    android:layout_height="wrap_content"
+    android:layout_weight="1"
+    android:id="@+id/Keelung" 
+    android:text="@string/Keelung"
+    android:drawableLeft="@drawable/region1"
+    android:textAppearance="?android:attr/textAppearanceLarge">
+    </Button>
+    
+    
+    //桃園
+    <Button 
+    android:layout_width="match_parent" 
+    android:layout_height="wrap_content"
+    android:layout_weight="1"
+    android:id="@+id/Taoyuan" 
+    android:text="@string/Taoyuan"
+    android:drawableLeft="@drawable/region1"
+    android:textAppearance="?android:attr/textAppearanceLarge">
+    </Button>
+    
+    
+    
+    //新竹
+    <Button 
+    android:layout_width="match_parent" 
+    android:layout_height="wrap_content"
+    android:layout_weight="1"
+    android:id="@+id/Hsinchu" 
+    android:text="@string/Hsinchu"
+    android:drawableLeft="@drawable/region1"
+    android:textAppearance="?android:attr/textAppearanceLarge">
+    </Button>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+        </LinearLayout>
